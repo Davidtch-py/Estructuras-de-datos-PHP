@@ -55,7 +55,7 @@ Este proyecto incluye una implementación básica de una lista enlazada en PHP. 
 	•	Abre el archivo run.php en VS Code.
 	•	Haz clic derecho en el archivo y selecciona Run Code o usa el atajo Ctrl + Alt + N (o Command + Option + N en Mac) para ejecutar el archivo.
 
-**Ejecución desde la Consola**
+## Ejecución desde la Consola
 
 1.	Abrir la Terminal:
 	•	Navega al directorio donde se encuentran los archivos PHP (Node.php, MyList.php, y run.php).
@@ -65,7 +65,7 @@ Este proyecto incluye una implementación básica de una lista enlazada en PHP. 
    ```
 Esto ejecutará el script run.php y mostrará los resultados en la terminal.
 
-**Estructura de Archivos**
+## Estructura de Archivos
 
 •	Node.php: Define la estructura del nodo de la lista.
 •	MyList.php: Implementa la lista enlazada y sus operaciones.
