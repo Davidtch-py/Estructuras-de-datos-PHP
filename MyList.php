@@ -23,7 +23,7 @@ class MyList
         }
     }
 
-    public function remove($data): void
+    public function remove($data)
     {
         $current = $this->head;
 
@@ -38,9 +38,8 @@ class MyList
                 if ($current->getNext() !== null) {
                     $current->getNext()->setPrevious($current->getPrevious());
                 }
-            }else{
-                $current = $current->getNext();
             }
+            $current = $current->getNext();
         }
     }
 
